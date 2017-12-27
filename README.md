@@ -4,9 +4,9 @@ A Chrome browser extension designed to mitigate confirmation bias in media consu
 When the user visits a given news site, the extension will prompt them to visit a website that features opposing view points to those that they are usually exposed to. 
 
 ## Differences between versions
-*browser namespace changed to chrome namespace (ex. chrome.storage.local vs browser.storage.local)
-*chrome.storage.local requires a function and the ".then" promise doesn't work. In Firefox, the function is optional and isn't being used.
-*the applications key in the manifest file was removed for the Chrome version, but is required for Firefox.
+browser namespace changed to chrome namespace (ex. chrome.storage.local vs browser.storage.local)<br>
+chrome.storage.local requires a function and the ".then" promise doesn't work. In Firefox, the function is optional and isn't being used.<br>
+the applications key in the manifest file was removed for the Chrome version, but is required for Firefox.
 
 
 ## About
