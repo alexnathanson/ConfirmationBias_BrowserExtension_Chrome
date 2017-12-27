@@ -1,7 +1,13 @@
-# Confirmation Bias Browser Extension
-A Firefox browser extension designed to mitigate confirmation bias in media consumption.
+# Confirmation Bias Browser Extension for Chrome
+A Chrome browser extension designed to mitigate confirmation bias in media consumption.
 
 When the user visits a given news site, the extension will prompt them to visit a website that features opposing view points to those that they are usually exposed to. 
+
+## Differences between versions
+*browser namespace changed to chrome namespace (ex. chrome.storage.local vs browser.storage.local)
+*chrome.storage.local requires a function and the ".then" promise doesn't work. In Firefox, the function is optional and isn't being used.
+*the applications key in the manifest file was removed for the Chrome version, but is required for Firefox.
+
 
 ## About
 More about confirmation bias on https://en.wikipedia.org/wiki/Confirmation_bias. <br>
