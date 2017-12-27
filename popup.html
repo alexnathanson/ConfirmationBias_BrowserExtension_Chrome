@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+ <meta charset="UTF-8"> 
+ <link rel="stylesheet" href="popup.css"/>
+<html>
+  <body>
+    <p>
+      <h2>Confirmation Bias Mitigation</h2>
+    </p>
+    <p>
+      <div id="settings"><h3>Settings:</h3>
+        On/ Off:<input type="checkbox" name="onoff" value="state">
+        Intensity:<span id="value"></span><input type="range" min="1" max="100" value="50" class="slider" name="intensity" value="distance">
+      </div>
+
+    <h3>Your top news sites:</h3>
+    <ul id="fave"><li>No data collected yet...</li></ul>
+     
+    <h3>News sites you might disagree with:</h3>
+    <ul id="hated"><li>No data collected yet...</li></ul>
+
+<div id="container">
+    <img class="img" src="images/ConfirmationBias_mediavectorgraph_dec25.jpg" alt="">
+    <canvas id="myCanvas" width="400" height="400" style="border:1px solid #000000;"> </canvas>
+</div>
+<br>
+
+<div class="details">
+    <table>
+      <tr>
+        More about confirmation bias on <a href="https://en.wikipedia.org/wiki/Confirmation_bias">wikipedia.org</a>. <br>
+      </tr>
+      <tr>
+        This is an open source project created by Alex Nathanson. Full project details and notes on my methodology are available on <a href="https://github.com/alexnathanson/ConfirmationBias_BrowserExtension">Git hub</a>. Collaborators welcome.
+      </tr>
+  </table>
+</div>
+
+<script src="mediasources.js"></script>
+<script src="popup.js"></script>
+  </body>
+</html>
